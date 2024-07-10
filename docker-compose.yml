@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  chatbot:
+    container_name: chatbot
+    build:
+      context: .
+      args:
+        project: chatbot
+      dockerfile: Dockerfile
+    ports:
+      - "3005:3005"
+    volumes:
+      - .:/opt/chatbot
+      - /opt/chatbot/node_modules
+    command: npm run start

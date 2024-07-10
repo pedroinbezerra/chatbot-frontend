@@ -1,0 +1,27 @@
+.container {
+    margin: 5% 5% 0;
+}
+
+.conversationContainer {
+    padding: .1rem 0;
+    border-radius: 5px;
+}
+
+.conversation {
+    margin: 2rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 22rem;
+}
+
+.sended {
+    text-align: right;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: rgb(99, 180, 255);
+}
+
+.received {
+    text-align: left;
+    padding: .5rem 3rem .5rem 3rem;
+    background-color: rgb(159, 255, 182);
+}
