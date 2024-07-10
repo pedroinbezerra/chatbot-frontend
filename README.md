@@ -13,4 +13,5 @@ yarn dev
 ```
 
 Abra http://localhost:3005/chat no seu navegador para ver o resultado.
+
 Para realizar o apontamento para o host do Botpress, altere o arquivo /pages/chat/index.js nas linhas 10 e 11
